@@ -5,8 +5,8 @@ This project is a Video search app that was built with React which accesses the 
 Some notes about this project:
 
 - This react project was created with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
-- I used [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to add styling responsiveness.
-- [Axios](https://www.npmjs.com/package/axios) which is a promised based library that enabled me to a call to the YouTube API.
+- I used [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to add styling and responsiveness.
+- I used [Axios](https://www.npmjs.com/package/axios) which is a promised based library that enabled me to a call to the YouTube API.
 - I had trouble getting the embedded YouTube player to resize properly with Bootstrap. The only fix I could find was to use [Semantic UI's](https://semantic-ui.com/) **'ui embed'** class which kept the proper ratio.
 
 ## Bootstrap 5 Documentation
