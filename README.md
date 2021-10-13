@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+# Video-Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Video search app that was built with React which accesses the YouTube API using Axios to play videos.
 
-## Available Scripts
+Some notes about this project:
+
+- This react project was created with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html).
+- I used [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to add styling responsiveness.
+- [Axios](https://www.npmjs.com/package/axios) which is a promised based library that enabled me to a call to the YouTube API.
+- I had trouble getting the embedded YouTube player to resize properly with Bootstrap. The only fix I could find was to use [Semantic UI's](https://semantic-ui.com/) **'ui embed'** class which kept the proper ratio.
+
+## Bootstrap 5 Documentation
+
+For more information on Bootstrap, check out the [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+## Axios Documentation
+
+Here you can find the [Axios Documentation](https://www.npmjs.com/package/axios)
+
+## Create-React-App Instructions
 
 In the project directory, you can run:
 
@@ -44,27 +59,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
